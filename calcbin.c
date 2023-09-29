@@ -7,7 +7,7 @@ int main(){
     int tamanhoArray; //tamanho do array
     
     printf("Calculadora Decimal para Binario: \n");
-    printf("Digite o numero inteiro decimal: ");
+    printf("Digite o numero inteiro positivo: ");
     scanf("%d", &numeroDecimal);
     
     tamanhoArray = arrayLength(numeroDecimal);
